@@ -22,5 +22,7 @@ def search( nums, target):
 
 if __name__ == "__main__":
     nums = [-1,0,3,5,9,12]
-    target = 2
-    print(search(nums, target))
+    target1 = 2
+    target2 = 9
+    print(search(nums, target1))
+    print(search(nums, target2))
